@@ -25,7 +25,7 @@ X_scaled = scaler.fit_transform(X)
 
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.3, random_state=42)
 
-knn = KNeighborsClassifier(n_neighbors=5,metric='manhattan')
+knn = KNeighborsClassifier(n_neighbors=9,metric='braycurtis')
 knn.fit(X_train, y_train)
 
 print("\nEnter the following values for prediction:")
