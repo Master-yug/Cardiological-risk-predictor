@@ -55,7 +55,7 @@ We used **K-Nearest Neighbors (KNN)** classifier with:
 Clone the repo and install required packages:
 
 ```bash
-git clone https://github.com/your-username/heart-disease-knn.git
+git clone https://github.com/Master-yug/Cardiological-risk-predictor.git
 cd heart-disease-knn
 pip install -r requirements.txt
 ```
